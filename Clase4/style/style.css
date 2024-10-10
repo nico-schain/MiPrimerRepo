@@ -1,0 +1,24 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(43, 112, 124);
+}
+
+footer {
+    background-color: rgb(62, 124, 43);
+}
+
+ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+.mails {
+    font-size: small;
+}
+
+#list {
+    color: rgb(150, 74, 74);
+}

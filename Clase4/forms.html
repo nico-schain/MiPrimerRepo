@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ol id="list">
+                <li>Opción 1</li>
+                <li>Opción 2</li>
+                <li>Opción 3</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <form 
+        action="https://formspree.io/f/xovagvok"
+        method="POST">
+            <fieldset>
+                <legend>Formulario de prueba</legend>
+                <label for="fname">Nombre:</label>
+                <input type="text" name="fname" id="fname"><br>
+                <label for="sname">Apellido:</label>
+                <input type="text" name="sname" id="sname"><br>
+                <label for="id">DNI:</label>
+                <input type="number" name="id" id="id" required><br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="bday">Fecha de nacimiento:</label>
+                <input type="date" name="bday" id="bday"><br>
+                <label for="options">Días disponibles:</label><br>
+                <input type="checkbox" name="options" value="1">Lunes <br>
+                <input type="checkbox" name="options" value="2">Martes <br>
+                <input type="checkbox" name="options" value="3">Miércoles <br>
+                <input type="checkbox" name="options" value="4">Jueves <br>
+                <input type="checkbox" name="options" value="5">Viernes <br>
+                <label for="adress">Domicilio</label><br>
+                <input type="radio" name="adress" value="1">CABA <br>
+                <input type="radio" name="adress" value="2">GBA <br>
+                <input type="radio" name="adress" value="3">Interior <br>
+                <input type="submit" value="Enviar"> <br>
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="mails">
+            <p>Email: prueba.uno@prueba.com</p>
+        </div>
+    </footer>
+</body>
+</html>
